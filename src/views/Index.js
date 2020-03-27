@@ -56,14 +56,13 @@ function LandingPage() {
                   className="image-container image-left"
                   style={{
                     backgroundImage:
-                    "url(" + require("assets/img/login.jpg") + ")"
+                    "url(" + require("assets/img/class-of-18.jpg") + ")"
                   }}
                 >
                   <p className="blockquote blockquote-info">
                     "The Simchas Hachaim and Geshmak in learning that
-                    the Cheder instills in our son is evident from
-                    every aspect of his day. From getting up early to be
-                    on time for the bus without us having to wake him,
+                    the Cheder Toras Zev instills in our son is evident from
+                    every aspect of his day. From getting up early without us having to wake him,
                     till him wanting to be in bed on time so he can be well
                     rested for his fun filled day at the Cheder" <br></br>
                     <br></br>
@@ -74,7 +73,7 @@ function LandingPage() {
                   className="image-container"
                   style={{
                     backgroundImage:
-                    "url(" + require("assets/img/bg3.jpg") + ")"
+                    "url(" + require("assets/img/class-of-18.jpg") + ")"
                   }}
                 ></div>
               </Col>
@@ -197,82 +196,88 @@ function LandingPage() {
         <Container>
           <h2 className="title">Contact us?</h2>
           <p className="description">Looking forward to heaing from you.</p>
-          <Row>
-            <Col className="text-center ml-auto mr-auto" lg="6" md="8">
-              <InputGroup
-                className={
-                  "input-lg" + (firstFocus ? " input-group-focus" : "")
-                }
-              >
-                <InputGroupAddon addonType="prepend">
-                  <InputGroupText>
-                    <i className="now-ui-icons users_circle-08"></i>
-                  </InputGroupText>
-                </InputGroupAddon>
-                <Input
-                  placeholder="First Name..."
-                  type="text"
-                  onFocus={() => setFirstFocus(true)}
-                  onBlur={() => setFirstFocus(false)}
-                ></Input>
-              </InputGroup>
-              <InputGroup
-                className={
-                  "input-lg" + (lastFocus ? " input-group-focus" : "")
-                }
-              >
-                <InputGroupAddon addonType="prepend">
-                  <InputGroupText>
-                    <i className="now-ui-icons ui-1_email-85"></i>
-                  </InputGroupText>
-                </InputGroupAddon>
-                <Input
-                  placeholder="Phone..."
-                  type="text"
-                  onFocus={() => setLastFocus(true)}
-                  onBlur={() => setLastFocus(false)}
-                ></Input>
-              </InputGroup>
-              <InputGroup
-                className={
-                  "input-lg" + (lastFocus ? " input-group-focus" : "")
-                }
-              >
-                <InputGroupAddon addonType="prepend">
-                  <InputGroupText>
-                    <i className="now-ui-icons ui-1_email-85"></i>
-                  </InputGroupText>
-                </InputGroupAddon>
-                <Input
-                  placeholder="Email..."
-                  type="text"
-                  onFocus={() => setLastFocus(true)}
-                  onBlur={() => setLastFocus(false)}
-                ></Input>
-              </InputGroup>
-              <div className="textarea-container">
-                <Input
-                  cols="80"
-                  name="name"
-                  placeholder="Type a message..."
-                  rows="4"
-                  type="textarea"
-                ></Input>
-              </div>
-              <div className="send-button">
-                <Button
-                  block
-                  className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={e => e.preventDefault()}
-                  size="lg"
+          <form name="contact" method="POST" data-netlify="true">
+            <Row>
+              <Col className="text-center ml-auto mr-auto" lg="6" md="8">
+                <InputGroup
+                  className={
+                    "input-lg" + (firstFocus ? " input-group-focus" : "")
+                  }
                 >
-                  Send Message
-                </Button>
-              </div>
-            </Col>
-          </Row>
+                  <InputGroupAddon addonType="prepend">
+                    <InputGroupText>
+                      <i className="now-ui-icons users_circle-08"></i>
+                    </InputGroupText>
+                  </InputGroupAddon>
+                  <Input
+                    required
+                    placeholder="Name..."
+                    type="text"
+                    onFocus={() => setFirstFocus(true)}
+                    onBlur={() => setFirstFocus(false)}
+                  ></Input>
+                </InputGroup>
+                <InputGroup
+                  className={
+                    "input-lg" + (lastFocus ? " input-group-focus" : "")
+                  }
+                >
+                  <InputGroupAddon addonType="prepend">
+                    <InputGroupText>
+                      <i className="now-ui-icons ui-1_email-85"></i>
+                    </InputGroupText>
+                  </InputGroupAddon>
+                  <Input
+                    required
+                    placeholder="Phone..."
+                    type="text"
+                    onFocus={() => setLastFocus(true)}
+                    onBlur={() => setLastFocus(false)}
+                  ></Input>
+                </InputGroup>
+                <InputGroup
+                  className={
+                    "input-lg" + (lastFocus ? " input-group-focus" : "")
+                  }
+                >
+                  <InputGroupAddon addonType="prepend">
+                    <InputGroupText>
+                      <i className="now-ui-icons ui-1_email-85"></i>
+                    </InputGroupText>
+                  </InputGroupAddon>
+                  <Input
+                    required
+                    placeholder="Email..."
+                    type="text"
+                    onFocus={() => setLastFocus(true)}
+                    onBlur={() => setLastFocus(false)}
+                  ></Input>
+                </InputGroup>
+                <div className="textarea-container">
+                  <Input
+                    required
+                    cols="80"
+                    name="name"
+                    placeholder="Type a message..."
+                    rows="4"
+                    type="textarea"
+                  ></Input>
+                </div>
+                <div className="send-button">
+                  <Button
+                    block
+                    className="btn-round"
+                    color="info"
+                    href="#pablo"
+                    onClick={e => e.preventDefault()}
+                    size="lg"
+                  >
+                    Send Message
+                  </Button>
+                </div>
+              </Col>
+            </Row>
+          </form>
         </Container>
       </div>
       <DefaultFooter />
