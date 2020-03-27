@@ -25,7 +25,7 @@ import "assets/scss/now-ui-kit.scss";
 import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
-import Index from "./views/index.js";
+import Index from "./views/index";
 
 ReactDOM.render(
   <BrowserRouter>
