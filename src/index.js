@@ -26,17 +26,19 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "./views/index";
+import Donate from "./views/donate";
+import Dinner2020 from "./views/dinner-2020";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch>
       <Switch>
         <Route path="/index" render={props => <Index {...props} />} />
+        <Route path="/donate" render={props => <Donate {...props} />} />
+        <Route path="/dinner2020" render={props => <Dinner2020 {...props} />} />
         <Redirect to="/index" />
         <Redirect to="/contact-us" />
         <Redirect from="/" to="/index" />
       </Switch>
-    </Switch>
   </BrowserRouter>,
   document.getElementById("root")
 );

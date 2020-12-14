@@ -34,7 +34,7 @@ function LandingPage() {
     <ExamplesNavbar />
     <div className="wrapper">
       <LandingPageHeader />
-      <div className="section section-about-us">
+      <div className="section section-about-us"  id="about-us">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
@@ -123,7 +123,7 @@ function LandingPage() {
           </div>
         </Container>
       </div>
-      <div className="section section-team text-center">
+      <div className="section section-team text-center" id="hanhala">
         <Container>
           <h2 className="title">Hanhalas Hacheder</h2>
           <div className="team">
@@ -192,7 +192,7 @@ function LandingPage() {
           </div>
         </Container>
       </div>
-      <div className="section section-contact-us text-center">
+      <div className="section section-contact-us text-center" id="contact-us">
         <Container>
           <h2 className="title">Contact us?</h2>
           <p className="description">Looking forward to heaing from you.</p>

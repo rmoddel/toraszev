@@ -23,7 +23,7 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-large">
+      <div className="page-header page-header-large" id="home">
         <div
           className="page-header-image"
           style={{  backgroundImage: "url(" + require("assets/img/cheder-toras-zev.png") + ")" }}

@@ -94,9 +94,6 @@ function ExamplesNavbar() {
             >
               Cheder Toras Zev
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -118,22 +115,33 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                {/*<NavLink to="/index" tag={Link}>*/}
+                <NavLink href="/index#home">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="http://www.toraszev.org/donations.html">
+                <NavLink to="/donate" tag={Link}>
                   Donate
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact-us">
-                  Contact Us
+                <NavLink href="index/#hanhala">
+                  Hanhala
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="http://www.toraszev.org/donations.html">
+                <NavLink href="index/#about-us">
+                  About Us
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact-us">
+                  contact Us
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/dinner2020" tag={Link}>
                   Donate
                 </NavLink>
               </NavItem>
