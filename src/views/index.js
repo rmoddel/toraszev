@@ -56,7 +56,7 @@ function LandingPage() {
                   className="image-container image-left"
                   style={{
                     backgroundImage:
-                    "url(" + require("assets/img/class-of-18.jpg") + ")"
+                    "url(" + require("../assets/img/class-of-18.jpg") + ")"
                   }}
                 >
                   <p className="blockquote blockquote-info">
@@ -73,7 +73,7 @@ function LandingPage() {
                   className="image-container"
                   style={{
                     backgroundImage:
-                    "url(" + require("assets/img/class-of-18.jpg") + ")"
+                    "url(" + require("../assets/img/class-of-18.jpg") + ")"
                   }}
                 ></div>
               </Col>
@@ -82,7 +82,7 @@ function LandingPage() {
                   className="image-container image-right"
                   style={{
                     backgroundImage:
-                    "url(" + require("assets/img/class-of-18.jpg") + ")"
+                    "url(" + require("../assets/img/class-of-18.jpg") + ")"
                   }}
                 ></div>
                 <h3>
@@ -133,7 +133,7 @@ function LandingPage() {
                   <img
                     alt="..."
                     className="rounded-circle img-fluid img-raised"
-                    src={require("assets/img/chaim-zev.png")}
+                    src={require("../assets/img/chaim-zev.png")}
                   ></img>
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>
@@ -153,7 +153,7 @@ function LandingPage() {
                   <img
                     alt="..."
                     className="rounded-circle img-fluid img-raised"
-                    src={require("assets/img/chaim-zev.png")}
+                    src={require("../assets/img/chaim-zev.png")}
                   ></img>
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>
@@ -173,7 +173,7 @@ function LandingPage() {
                   <img
                     alt="..."
                     className="rounded-circle img-fluid img-raised"
-                    src={require("assets/img/chaim-zev.png")}
+                    src={require("../assets/img/chaim-zev.png")}
                   ></img>
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>

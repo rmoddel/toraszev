@@ -26,7 +26,7 @@ function LandingPageHeader() {
       <div className="page-header page-header-large" id="home">
         <div
           className="page-header-image"
-          style={{  backgroundImage: "url(" + require("assets/img/cheder-toras-zev.png") + ")" }}
+          style={{  backgroundImage: "url(" + require("../assets/img/cheder-toras-zev.png") + ")" }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
