@@ -25,9 +25,9 @@ import "assets/scss/now-ui-kit.scss";
 import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
-import Index from "./views/index.js";
-import Donate from "./views/donate.js";
-import Dinner2020 from "./views/dinner-2020.js";
+import Index from "./views/index";
+import Donate from "./views/donate";
+import Dinner2020 from "./views/dinner-2020";
 
 ReactDOM.render(
   <BrowserRouter>
