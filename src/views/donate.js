@@ -1,16 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import {
-  Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col
-} from "reactstrap";
+import { Container } from "reactstrap";
 
 // core components
 import ExamplesNavbar from "../components/Navbar.js";
