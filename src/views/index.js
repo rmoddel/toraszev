@@ -40,11 +40,7 @@ function LandingPage() {
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">About Cheder Toras Zev</h2>
               <h5 className="description">
-                Cheder Toras Zev was founded 11 years ago...................................................
-                ............................................................................................
-                ............................................................................................
-                ............................................................................................
-                ............................................................................................
+                Cheder Toras Zev was founded 11 years ago.....
               </h5>
             </Col>
           </Row>
@@ -69,13 +65,13 @@ function LandingPage() {
                     <small>-Rabbi and Mrs M. - Parents</small>
                   </p>
                 </div>
-                <div
-                  className="image-container"
-                  style={{
-                    backgroundImage:
-                    "url(" + require("../assets/img/class-of-18.jpg") + ")"
-                  }}
-                ></div>
+                {/*<div*/}
+                  {/*className="image-container"*/}
+                  {/*style={{*/}
+                    {/*backgroundImage:*/}
+                    {/*"url(" + require("../assets/img/class-of-18.jpg") + ")"*/}
+                  {/*}}*/}
+                {/*></div>*/}
               </Col>
               <Col md="5">
                 <div
@@ -85,39 +81,39 @@ function LandingPage() {
                     "url(" + require("../assets/img/class-of-18.jpg") + ")"
                   }}
                 ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter
-                  ice actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the
-                  sea-ice then thaws every summer, and that process will
-                  continue whatever happens with climate change. Even if the
-                  Arctic continues to be one of the fastest-warming regions of
-                  the world, it will always be plunged into bitterly cold
-                  polar dark every winter. And year-by-year, for all kinds of
-                  natural reasons, there’s huge variety of the state of the
-                  ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures
-                  rise. But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the
-                  sea-ice then thaws every summer, and that process will
-                  continue whatever happens with climate change. Even if the
-                  Arctic continues to be one of the fastest-warming regions of
-                  the world, it will always be plunged into bitterly cold
-                  polar dark every winter. And year-by-year, for all kinds of
-                  natural reasons, there’s huge variety of the state of the
-                  ice.
-                </p>
+                {/*<h3>*/}
+                  {/*So what does the new record for the lowest level of winter*/}
+                  {/*ice actually mean*/}
+                {/*</h3>*/}
+                {/*<p>*/}
+                  {/*The Arctic Ocean freezes every winter and much of the*/}
+                  {/*sea-ice then thaws every summer, and that process will*/}
+                  {/*continue whatever happens with climate change. Even if the*/}
+                  {/*Arctic continues to be one of the fastest-warming regions of*/}
+                  {/*the world, it will always be plunged into bitterly cold*/}
+                  {/*polar dark every winter. And year-by-year, for all kinds of*/}
+                  {/*natural reasons, there’s huge variety of the state of the*/}
+                  {/*ice.*/}
+                {/*</p>*/}
+                {/*<p>*/}
+                  {/*For a start, it does not automatically follow that a record*/}
+                  {/*amount of ice will melt this summer. More important for*/}
+                  {/*determining the size of the annual thaw is the state of the*/}
+                  {/*weather as the midnight sun approaches and temperatures*/}
+                  {/*rise. But over the more than 30 years of satellite records,*/}
+                  {/*scientists have observed a clear pattern of decline,*/}
+                  {/*decade-by-decade.*/}
+                {/*</p>*/}
+                {/*<p>*/}
+                  {/*The Arctic Ocean freezes every winter and much of the*/}
+                  {/*sea-ice then thaws every summer, and that process will*/}
+                  {/*continue whatever happens with climate change. Even if the*/}
+                  {/*Arctic continues to be one of the fastest-warming regions of*/}
+                  {/*the world, it will always be plunged into bitterly cold*/}
+                  {/*polar dark every winter. And year-by-year, for all kinds of*/}
+                  {/*natural reasons, there’s huge variety of the state of the*/}
+                  {/*ice.*/}
+                {/*</p>*/}
               </Col>
             </Row>
           </div>
@@ -138,13 +134,11 @@ function LandingPage() {
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>
                   <p className="description">
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some{" "}
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      links
-                    </a>{" "}
-                    for people to be able to follow them outside the site.
+                   Rabbi Eidelman is a Menahel Par Excellence
+                    {/*<a href="#pablo" onClick={e => e.preventDefault()}>*/}
+                      {/*links*/}
+                    {/*</a>{" "}*/}
+                    {/*for people to be able to follow them outside the site.*/}
                   </p>
                 </div>
               </Col>
@@ -158,13 +152,11 @@ function LandingPage() {
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>
                   <p className="description">
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some{" "}
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      links
-                    </a>{" "}
-                    for people to be able to follow them outside the site.
+                    Rabbi Eidelman is a Menahel Par Excellence
+                    {/*<a href="#pablo" onClick={e => e.preventDefault()}>*/}
+                      {/*links*/}
+                    {/*</a>{" "}*/}
+                    {/*for people to be able to follow them outside the site.*/}
                   </p>
                 </div>
               </Col>
@@ -178,13 +170,11 @@ function LandingPage() {
                   <h4 className="title">Rabbi Chaim Zev Eidelman </h4>
                   <p className="category text-info">Rosh Hamosad</p>
                   <p className="description">
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some{" "}
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      links
-                    </a>{" "}
-                    for people to be able to follow them outside the site.
+                    Rabbi Eidelman is a Menahel Par Excellence
+                    {/*<a href="#pablo" onClick={e => e.preventDefault()}>*/}
+                      {/*links*/}
+                    {/*</a>{" "}*/}
+                    {/*for people to be able to follow them outside the site.*/}
                   </p>
                 </div>
               </Col>

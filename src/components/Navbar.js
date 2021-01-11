@@ -116,27 +116,27 @@ function ExamplesNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/donate" tag={Link}>
-                  Donate
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="index/#hanhala">
+                <NavLink href="/index/#hanhala">
                   Hanhala
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="index/#about-us">
+                <NavLink href="/index/#about-us">
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact-us">
+                <NavLink href="/index/#contact-us">
                   contact Us
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/dinner2020" tag={Link}>
+                  Links
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/donate" tag={Link}>
                   Donate
                 </NavLink>
               </NavItem>
